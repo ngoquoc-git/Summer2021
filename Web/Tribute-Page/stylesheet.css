@@ -1,0 +1,67 @@
+header{
+    background-color: #EFE2BA;
+    width: 100%;
+    height: 300px;
+    top: 0px;
+}
+
+#title{
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    position: relative;
+    top: 45px;
+}
+#main{
+    background-color: #EEE2DC;
+    align-items: center;
+}
+
+li{
+    position: relative;
+    padding: 25px 0px;
+}
+
+#biography{
+    position: relative;
+    font-size: 32px;
+}
+
+#img-div{
+    position: relative;
+    text-align: center;
+}
+#sub-head{
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+#image{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+}
+#tribute-info{
+    top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer{
+    margin: 50px 0px 0px 0px;
+    bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px; 
+    text-align: center;
+    color: grey;
+}
+
+#quote{
+    text-align: center;
+}
+
+#tribute-div{
+    position: relative;
+    text-align: right;
+}
