@@ -6,6 +6,8 @@
 
 body{
     background-color: #e6e2dd;
+    font-family: sans-serif;    
+
 }
 
 header{
@@ -19,12 +21,20 @@ header{
     margin-left: 25%;
     margin-right: 25%;
     padding-bottom: 20px;
+    font-family: sans-serif;
 }
 
 #description{
     color: white;
     padding-left: 10px;
+    text-align: center;
+    font-size: 24px;
+}
 
+
+
+input{
+    margin-bottom: 15px;
 }
 
 #survey-form{
