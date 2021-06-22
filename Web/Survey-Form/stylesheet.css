@@ -25,6 +25,8 @@ header{
 }
 
 #description{
+    position: relative;
+    padding-top: 15px;
     color: white;
     padding-left: 10px;
     text-align: center;
@@ -35,6 +37,8 @@ header{
 
 input{
     margin-bottom: 15px;
+    border-radius: 5px;
+    width: 94%;
 }
 
 #survey-form{
