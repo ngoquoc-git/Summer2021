@@ -1,11 +1,11 @@
 #title{
-    color: #373a36;
+    color: #fead09;
     font-size: 60px;
     text-align: center;
 }
 
 body{
-    background-color: #e6e2dd;
+    background-color: black;
     font-family: sans-serif;    
 
 }
@@ -14,9 +14,18 @@ header{
     position: relative;
 }
 
+#nav{
+    position: relative;
+}
+
+img{
+    width:150px;
+    height: auto;
+}
+
 #body{
     position: relative;
-    background-color: #d48166;
+    background-color: #fead09;
     height: 90%;
     margin-left: 25%;
     margin-right: 25%;
@@ -27,18 +36,40 @@ header{
 #description{
     position: relative;
     padding-top: 15px;
-    color: white;
+    color: #26293a;
     padding-left: 10px;
     text-align: center;
     font-size: 24px;
 }
 
+#name{
+    border-radius: 5px;
+    width: 94%;
+}
 
+#email-address{
+    border-radius: 5px;
+    width: 94%;
+}
+
+#number{
+    border-radius: 5px;
+    width: 94%;
+}
 
 input{
     margin-bottom: 15px;
+}
+
+#default{
+    color: gray;
+}
+
+#dropdown{
+    margin-bottom: 15px;
     border-radius: 5px;
-    width: 94%;
+    width: 95%;
+    height: 35px;
 }
 
 #survey-form{
@@ -53,7 +84,7 @@ input{
     height: 30px;
 }
 
-#email{
+#email-address{
     position: relative;
     height: 30px;
 }
@@ -63,9 +94,18 @@ input{
     height: 30px;
 }
 
+textarea{
+    width: 95%;
+    height: auto;
+}
+
+#submit{
+    margin: 15px 45%;
+}
+
 footer{
-    position: absolute;
-    bottom: 10px;
+    position: relative;
+    margin-top: 15px;
     
 }
 
