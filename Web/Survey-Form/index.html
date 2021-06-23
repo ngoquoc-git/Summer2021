@@ -2,23 +2,57 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="stylesheet.css">
-        <link rel="icon" type="image/png" href="source/photos/logo.PNG">
+        <link rel="icon" type="image/png" href="source/photos/Quoc-navy-logo.PNG">
         <title>Quoc's Survey Form</title >
         
     </head>
     <body>
+        <div id="nav">
+            <img src="source/photos/Quoc-navy-logo.PNG">
+        </div>
         <header id="title">
             SURVEY
         </header>
         <div id="body">
-            <p id="description">Thank you for your time, your information will be use against you</p>
+            <p id="description">Thank you for your time, your information will be used against you</p>
             <form id="survey-form">
-                <label for="name">Full Name:</label><br>
+                <label id="name-label" for="name">Full Name:</label><br>
                 <input id="name" type="text" placeholder="Name"><br>
-                <label for="email-address">Email Address:</label><br>
-                <input id="email" type="email" placeholder="AddressName@DomainName"><br>
-                <label for="pNumber">Phone Number</label><br>
-                <input id="number" type="number" placeholder="Phone Number"><br>
+                <label id="email-label"for="email-address">Email Address:</label><br>
+                <input id="email-address" type="email" placeholder="AddressName@DomainName"><br>
+                <label id="number-label" for="number">Age</label><br>
+                <input id="number" type="number" min="min_value" max="max_value" placeholder="Age"><br>
+                
+                <label id="dropdown-label" for="dropdown">What is your educational status?</label><br>
+                <select id="dropdown">
+                    <option selected disabled id="default">--Select an option--</option>
+                    <option>Middle School</option>
+                    <option>High School</option>
+                    <option>Vocational School</option>
+                    <option>2-year College</option>
+                    <option>4-year College</option>
+                    <option>Master Degree</option>
+                    <option>Doctoral Degree</option>
+                    <option>Other</option><br>
+                </select>
+                
+                <div style="margin-bottom: 15px;">What do you want to learn from this page?</div>
+                <label for="HTML"><input id="HTML" value="HTML" name="focus" type="radio">HTML</label><br>
+                <label for="CSS"><input id="CSS" value="CSS" name="focus" type="radio">CSS</label><br>
+                <label for="JavaScript"><input id="JavaScript" value="JavaScript" name="focus" type="radio">JavaScript</label><br>
+            
+                <div style="margin-bottom: 15px;">What field do you like to explore?</div>
+                <label for="web-design"><input id="web-design" value="web-design" for="career" type="checkbox">Web Design</label><br>
+                <label for="security"><input id="security" value="security" for="career" type="checkbox">Cyber Security</label><br>
+                <label for="data-science"><input id="data-science" value="data-science" for="career" type="checkbox">Data Science</label><br>
+                <label for="software-development"><input id="software-development" value="software-development" for="career" type="checkbox">Software Development</label><br>
+                <label for="mobile"><input id="mobile" value="mobile" for="career" type="checkbox">Mobile Application</label><br>
+                <label for="cloud"><input id="cloud" value="cloud" for="career" type="checkbox">Cloud Computing</label><br>
+            
+                <label for="comments">Any reccommendations for a better service later?</label><br><br>
+                <textarea id="comments" name="comments">Every of your comment is extremely valuable to us</textarea>    
+            
+                <input type="submit" id="submit" value="submit">
             </form>
         </div>
         <footer>
