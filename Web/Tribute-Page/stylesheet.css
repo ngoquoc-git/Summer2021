@@ -36,6 +36,10 @@ li{
     text-align: center;
     top: 60px;
 }
+
+#stpa{
+    text-align: center;
+}
 #image{
     width: 80%;
     margin-left: 10%;
@@ -46,6 +50,7 @@ li{
     top: 40px;
     margin-left: 25%;
     margin-right: 25%;
+    /* text-align: center; */
 }
 
 footer{
