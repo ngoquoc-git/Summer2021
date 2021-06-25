@@ -1,7 +1,7 @@
 body{
     background-color: #fead09;
     font-family: sans-serif, Arial, Helvetica;
-    color: White;
+    color: black;
 }
 
 #nav{
@@ -128,8 +128,23 @@ body{
 
 #flex-donate>div{
     width: 300px;
-    margin: 10px 20px;
+    margin: 20px 20px;
     text-align: center;
+    border: 5px #26293a solid;
+}
+
+.donation-title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.donation-info{
+    height: 300px;
+}
+
+.donation-button{
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 #footer{
