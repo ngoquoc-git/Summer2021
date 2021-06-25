@@ -2,23 +2,91 @@
 <html>
     <head>
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="icon" type="image/png" href="source/pictures/logotest-removebg-preview.png">
         <title>Quoc's Product Landing</title>
     </head>
     <body>
-        <nav id="nav">
-
-        </nav>
-
-        <header id="header">
-
-        </header>
-        
+        <div style="z-index: 2; position: relative; border: white solid;height: 120px;">
+            <div style="position: fixed;">
+                <nav id="nav">
+                    <img id="logo" src="source/pictures/logotest-removebg-preview.png" alt="Company's logo">
+                    <div id="nav-bar">     
+                        <div id="button-1" class="nav-button">
+                            Home
+                        </div>
+                        <div id="button-2" class="nav-button">
+                            Products
+                        </div>
+                        <div id="button-3" class="nav-button">
+                            Services
+                        </div>
+                        <div id="button-4" class="nav-button">
+                            Policy
+                        </div>
+                        <div id="button-5" class="nav-button">
+                            Feedback
+                        </div> 
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div id="header">
+            <h1>Vieteria</h1>
+            <h2>A Friendly Podcast Channel for Vietnamese American</h2>
+        </div>
         <div id="body">
+            <div id=body-div>
+                <form>
+                    <label for="email-address" id="email-label">
+                        Let us get to know you first
+                        <div style="text-align: center;">
+                            <input id="email-address" type="email" placeholder=" Your E-mail Address">
+                        </div>
+                        <div style="text-align: center;">
+                            <button type="button" id="button" onclick="alert('Email Recorded, Thanks!')" for="email-address">GET STARTED</button>
+                        </div>
+                    </label><br>
+                </form>
+            </div>
+            <div id="intro-vid">
+                <iframe  width="560" height="315" src="https://www.youtube.com/embed/lPOyaHAItAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="out-div-3" border: black solid">
+                <div id="div3">
+                    <div id=grid-intro>
+                        <div>
+                            <img id="product-logo" src="source/pictures/Psychology_logo-1.png">
+                        </div>
+                        <div>
+                            <div style="font-size: 18px;"><b>PSYCHOLOGY</b></div>
+                            <div style="margin-top:5px;">These podcasts are about how young people think, enjoy, and act.</div>
+                        </div>
+                        <div> 
+                            <img id="product-logo" src="source/pictures/36447-healthy-lifestyle-logo-icon-vector-icon-vector-eps.png">
+                        </div>
+                        <div>
+                            <div style="font-size: 18px;"><b>LIFESTYLE</b></div>
+                            <div style="margin-top:5px;">These podcasts are about multiple mens lifestyle that helps boost young men confidence.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="div-4">
+                <div style="width: 740px; margin: auto; font-size: 30px;"><b>This Podcast Service is Totally Free for EVERYONE</b></div>
+                <div style="width: 400px; margin: auto; text-align: center;">If you like our contents, please support us by donations We highly appreciate your attitutes</div>
+                <div id="flex-donate">
+                    <div>Box1</div>
+                    <div>Box2</div>
+                    <div>Box3</div>
+                </div>
+            </div>
+        </div>
 
+        <div style="height: 100px;"></div>
+        <div id="footer">
+            <p>Copyright by Quoc Ngo's Entertaiment</p>
         </div>
         
-        <footer id="footer">
-
-        </footer>
+        
     </body>
 </html>
