@@ -1,6 +1,5 @@
 body{
     font-family: 'Arial', Times, serif;
-    
 }
 
 #body{
@@ -12,12 +11,14 @@ body{
 
 #left{
     width: 20%;
+    
 }
 
 #left-menu{
     position: fixed;
     height: 100%;
     bottom: 15px;
+    border-right: 2px gray solid;
 }
 
 #title{
@@ -84,5 +85,3 @@ li{
     margin-top: 10px;
     margin-right: 5%;
 }
-
-
