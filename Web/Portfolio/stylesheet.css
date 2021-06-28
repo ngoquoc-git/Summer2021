@@ -1,3 +1,7 @@
+body{
+    background-color: #26293a;
+}
+
 #nav{
     position: fixed;
     width: 100%;
@@ -6,21 +10,16 @@
     top: 0;
     left: 0;
     z-index: 2;
+    flex-shrink: 4 2.5 3.5;
+    overflow: hidden;
 }
 
 #nav-logo{
-    width: 10%;
+    width: 40%;
     height: auto;
     padding: 25px 0px 25px 25px;
-}
-
-#logo-name{
-    width: 30%;
-    color: #fead09;
-    line-height: 150px;
-    font-family: monospace;
-    font-size: 40px;
-    margin-left: -30px;
+    max-height: 100px;
+    
 }
 
 #space{
@@ -37,18 +36,80 @@
 .nav-button{
     width: 100%;
     height: auto;
-    border: white solid;
+    text-align: center;
 
 }
 
 #main-page{
     position: relative;
-    background-color:bisque;
     margin-top: 155px;
     margin-left: -7px;
 }
 
+.body-content{
+    position: relative;
+    width: 75%;
+    margin-bottom: 150px;
+}
+
+.content-odd-wrap{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    left: -101%;
+    transition: left 0.8s;
+}
+
+.content-odd-wrap:hover{
+    left: 0;
+}
+
+.content-odd-animation{
+    position: absolute;
+    background-color: #fead09;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.content-even-wrap{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    right: -136%;
+    transition: right 0.8s;
+}
+
+.content-even-wrap:hover{
+    right: -36%;
+}
+
+.content-even-animation{
+    position: absolute;
+    background-color: #fead09;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    text-align: center;
+}
+
 #body-content-1{
+    height: 1500px;
+}
+
+#body-content-2{
+    height: 1500px;
+}
+
+#body-content-3{
+    height: 1500px;
+}
+
+#body-content-4{
+    height: 1500px;
+}
+
+#body-content-5{
     height: 1500px;
 }
 
@@ -64,4 +125,5 @@
     margin: 20px 10%;
     background-color: white;
     text-align: center;
+    
 }
