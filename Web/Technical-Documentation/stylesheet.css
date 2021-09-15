@@ -15,6 +15,7 @@ body{
 }
 
 #left-menu{
+    width: 20%;
     position: fixed;
     height: 100%;
     bottom: 15px;
@@ -25,6 +26,7 @@ body{
     font-size: 30px;
     padding: 20px;
     height: 5%;
+    overflow: hidden;
 }
 
 #menu-bar{
